@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Tmp change
 # Colour Constants
 HEADING="\033[1;36m" # Cyan
 INFO="\033[0;32m" # Green
@@ -24,6 +25,8 @@ install_prerequisites() {
         # Install command line tools
         echo_colour "Installing command line tools."
         xcode-select --install
+        # Still need to handle agreeing to the xcode license
+        # On CLI its sudo xcodebuild -license
     else
         echo_colour "All prerequesites satisfied."
     fi

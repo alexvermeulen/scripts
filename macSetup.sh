@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# test
+# test2
+
 # Colour Constants
 HEADING="\033[1;36m" # Cyan
 INFO="\033[0;32m" # Green
